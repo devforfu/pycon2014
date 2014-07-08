@@ -1,0 +1,18 @@
+Credits
+=======
+
+* PyMike from the Pygame community for his original work.
+
+TODO
+====
+
+* Submenus?
+* More effects (ideas are welcome)
+* Need to work better with transparency
+
+Get the code
+============
+
+The source repository is hosted at `GitHub`__
+
+__ https://github.com/keul/KezMenu

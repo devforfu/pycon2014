@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="block" tilewidth="32" tileheight="32">
+  <image source="block.png" width="32" height="32"/>
+ </tileset>
+ <layer name="map" width="20" height="20">
+  <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,
+1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,
+1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,
+1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,
+1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,
+1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,
+1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,
+1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <objectgroup name="triggers" width="20" height="20">
+  <object x="607" y="33" width="31" height="574"/>
+  <object x="1" y="32" width="30" height="575"/>
+  <object x="34" y="0" width="574" height="31"/>
+  <object x="223" y="512" width="65" height="31">
+   <properties>
+    <property name="blocker" value="1"/>
+   </properties>
+  </object>
+  <object x="127" y="544" width="65" height="31">
+   <properties>
+    <property name="blocker" value="1"/>
+   </properties>
+  </object>
+  <object name="player" x="63" y="545" width="30" height="29">
+   <properties>
+    <property name="start" value=""/>
+   </properties>
+  </object>
+  <object x="319" y="479" width="65" height="31">
+   <properties>
+    <property name="blocker" value="1"/>
+   </properties>
+  </object>
+  <object x="415" y="447" width="65" height="31">
+   <properties>
+    <property name="blocker" value="1"/>
+   </properties>
+  </object>
+  <object x="480" y="384" width="96" height="31">
+   <properties>
+    <property name="blocker" value="1"/>
+   </properties>
+  </object>
+  <object x="382" y="320" width="65" height="31">
+   <properties>
+    <property name="blocker" value="1"/>
+   </properties>
+  </object>
+  <object x="287" y="288" width="65" height="31">
+   <properties>
+    <property name="blocker" value="1"/>
+   </properties>
+  </object>
+  <object x="191" y="256" width="65" height="31">
+   <properties>
+    <property name="blocker" value="1"/>
+   </properties>
+  </object>
+  <object x="94" y="223" width="65" height="31">
+   <properties>
+    <property name="blocker" value="1"/>
+   </properties>
+  </object>
+  <object x="33" y="609" width="575" height="29">
+   <properties>
+    <property name="blocker" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
